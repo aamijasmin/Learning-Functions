@@ -5,9 +5,9 @@ cars = [
         'm3',
         'supra',
         'gls',
+        'tavera',
         'x1',
         'glc',
-        'gwagon',
         'fortuner',
         'thar',
         'octavia',
@@ -18,13 +18,12 @@ cars = [
         'xuv'
         ]
 
-my_car = 'polo'
-
+my_car = input("Please enter car name :")
 
 def lookup(s, l):
     availability = "Car is not available"
     for car in l:
-        print(car)
+        # print(car)
         if (car==s):
             availability = "Car is available"
             return availability
